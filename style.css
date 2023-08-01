@@ -10,3 +10,14 @@
 .description{
     text-align: center;
 }
+
+.header{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.form{
+    height: 800px;
+    width: 30%;
+    border: 1px solid gray;
+}
