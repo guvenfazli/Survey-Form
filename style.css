@@ -10,14 +10,18 @@ body{
 
 .title{
     text-align: center;
+    font-size: 35px;
 }
 
 .description{
     text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: -20px;
 }
 
 .header{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-top: 30px;
 }
 
@@ -28,8 +32,13 @@ body{
 }
 
 .first-row{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 30px;
+}
+
+.name-input{
+    display: block;
+    width: 90%;
 }
 
 .second-row{
@@ -37,9 +46,19 @@ body{
     margin-left: 30px;
 }
 
+.mail-input{
+    display: block;
+    width: 90%;
+}
+
 .third-row{
     margin-top: 20px;
     margin-left: 30px;
+}
+
+.age-input{
+    display: block;
+    width: 90%;
 }
 
 .fourth-row{
@@ -47,18 +66,49 @@ body{
     margin-left: 30px;
 }
 
+#select-role{
+    display: block;
+    width: 90%;
+}
+
 .fifth-row{
     margin-top: 20px;
     margin-left: 30px;
 }
 
-.radio-btn{
+#fav-feature{
     display: block;
+    width: 90%;
 }
 
 .sixth-row{
     margin-top: 20px;
     margin-left: 30px;
 }
+
+label {
+    display: block;
+}
+
+.seventh-row{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.eigth-row{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.text-area{
+    width: 90%;
+}
+
+.submit-btn{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 90%;
+}
+
 
 

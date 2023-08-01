@@ -20,22 +20,19 @@
     <section class="main">
         <div class="form">
             <div class="first-row">
-                <p class="name">Name</p>
-                <input class="name-i" type="text" placeholder="Name">
+                <label for="">Name <input type="text" class="name-input" placeholder="Name"/></label>
             </div>
 
             <div class="second-row">
-                <p>E-mail</p>
-                <input type="email" placeholder="E-mail">
+                <label for="">Email <input type="text" class="mail-input" placeholder="Email"/>
             </div>
             
             <div class="third-row">
-                <p>Age (Optional)</p>
-                <input type="number" placeholder="Age">
+                <label for="">Number <input type="number" class="age-input" placeholder="Email"/>
             </div>
 
             <div class="fourth-row">
-                <p>Which option best describes your current role?</p>
+                <label for="">Which option best describes your current role?
                 <select name="role" id="select-role">
                     <option value="">Select Current Role</option>
                     <option value="">Student</option>
@@ -44,16 +41,24 @@
                     <option value="">Prefer Not To Say</option>
                     <option value="">Other</option>
                 </select>
+                </label>
             </div>
             <div class="fifth-row">
-                <p>Would you recommend freeCodeCamp to a friend?</p>
-                <input type="radio" class="radio-btn"> Definitely
-                <input type="radio" class="radio-btn"> Maybe
-                <input type="radio" class="radio-btn"> Not Sure
+                <label for="">Would you recommend freeCodeCamp to a friend?
+                <label for="">
+                    <input type="radio" class="radio-btn"> Definitely
+                </label>
+                <label for="">
+                    <input type="radio" class="radio-btn"> Maybe
+                </label>
+                <label for="">
+                    <input type="radio" class="radio-btn"> Not Sure
+                </label>
+                </label>
             </div>
 
             <div class="sixth-row">
-                <p>What is your favorite feature of freeCodeCamp?</p>
+                <label for="">What is your favorite feature of freeCodeCamp?
                 <select name="feature" id="fav-feature">
                     <option value="">Select an Option</option>
                     <option value="">Challenges</option>
@@ -61,13 +66,42 @@
                     <option value="">Community</option>
                     <option value="">Open Source</option>
                 </select>
+                </label>
             </div>
+
+            <div class="seventh-row">
+                <label for="">What would you like to see improved? (Check all that apply)
+                <label for="">
+                    <input type="checkbox" class="c-box"/> Front-end Projects
+                </label>
+
+                <label for="">
+                    <input type="checkbox" class="c-box"/> Back-end Projects
+                </label>
+
+                <label for="">
+                    <input type="checkbox" class="c-box"/> Data Visualization
+                </label>
+                
+                <label for="">
+                    <input type="checkbox" class="c-box"/> Challenges
+                </label>
+
+                <label for="">
+                    <input type="checkbox" class="c-box"/> Open Source Community
+                </label>
+                </label>
+            </div>
+
+            <div class="eigth-row">
+                <label for="">Any comments or suggestions?
+                <textarea class="text-area">
+                </textarea>
+                </label>
+            </div>
+
+            <button class="submit-btn">Submit</button>
         </div>
-
     </section>
-
-
-
-
 </body>
 </html>
