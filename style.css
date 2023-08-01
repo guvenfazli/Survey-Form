@@ -1,4 +1,9 @@
-*{
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+
+.form{
     padding: 0;
     margin: 0 auto;
 }
@@ -28,16 +33,32 @@
 }
 
 .second-row{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 30px;
 }
 
 .third-row{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 30px;
 }
 
 .fourth-row{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 30px;
 }
+
+.fifth-row{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.radio-btn{
+    display: block;
+}
+
+.sixth-row{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+
