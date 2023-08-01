@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
 
 
@@ -20,15 +23,15 @@
     <section class="main">
         <div class="form">
             <div class="first-row">
-                <label for="">Name <input type="text" class="name-input" placeholder="Name"/></label>
+                <label for="" class="label-title">Name <input type="text" class="name-input" placeholder="Enter Your Name" required/></label>
             </div>
 
             <div class="second-row">
-                <label for="">Email <input type="text" class="mail-input" placeholder="Email"/>
+                <label for="">Email <input type="text" class="mail-input" placeholder="Enter Your Email" required/>
             </div>
             
             <div class="third-row">
-                <label for="">Number <input type="number" class="age-input" placeholder="Email"/>
+                <label for="">Number <input type="number" class="age-input" placeholder="Enter Your Age"/>
             </div>
 
             <div class="fourth-row">
@@ -46,13 +49,13 @@
             <div class="fifth-row">
                 <label for="">Would you recommend freeCodeCamp to a friend?
                 <label for="">
-                    <input type="radio" class="radio-btn"> Definitely
+                    <input type="radio" class="radio-btn" name="def"> Definitely
                 </label>
                 <label for="">
-                    <input type="radio" class="radio-btn"> Maybe
+                    <input type="radio" class="radio-btn" name="def"> Maybe
                 </label>
                 <label for="">
-                    <input type="radio" class="radio-btn"> Not Sure
+                    <input type="radio" class="radio-btn" name="def"> Not Sure
                 </label>
                 </label>
             </div>
@@ -95,7 +98,7 @@
 
             <div class="eigth-row">
                 <label for="">Any comments or suggestions?
-                <textarea class="text-area">
+                <textarea class="text-area" placeholder="Enter your comment here">
                 </textarea>
                 </label>
             </div>

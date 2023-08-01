@@ -1,11 +1,14 @@
 body{
     padding: 0;
     margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightpink;
 }
 
 .form{
     padding: 0;
     margin: 0 auto;
+    background-color: rgba(27, 27, 50, 0.8);
 }
 
 .title{
@@ -26,19 +29,32 @@ body{
 }
 
 .form{
-    height: 800px;
+    height: 1000px;
     width: 30%;
-    border: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .first-row{
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 30px;
+    
+}
+
+
+.first-row label{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
 }
 
 .name-input{
     display: block;
     width: 90%;
+    height: 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.1px;
 }
 
 .second-row{
@@ -46,9 +62,18 @@ body{
     margin-left: 30px;
 }
 
+.second-row label{
+    font-size: 20px;
+    color: white;
+}
+
 .mail-input{
     display: block;
     width: 90%;
+    height: 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.1px;
 }
 
 .third-row{
@@ -56,9 +81,18 @@ body{
     margin-left: 30px;
 }
 
+.third-row label{
+    font-size: 20px;
+    color: white;
+}
+
 .age-input{
     display: block;
     width: 90%;
+    height: 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.1px;
 }
 
 .fourth-row{
@@ -66,9 +100,18 @@ body{
     margin-left: 30px;
 }
 
+.fourth-row label{
+    font-size: 20px;
+    color: white;
+}
+
 #select-role{
     display: block;
     width: 90%;
+    height: 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.1px;
 }
 
 .fifth-row{
@@ -79,6 +122,10 @@ body{
 #fav-feature{
     display: block;
     width: 90%;
+    height: 25px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.1px;
 }
 
 .sixth-row{
@@ -88,6 +135,8 @@ body{
 
 label {
     display: block;
+    font-size: 20px;
+    color: white;
 }
 
 .seventh-row{
@@ -107,8 +156,36 @@ label {
 .submit-btn{
     margin-top: 20px;
     margin-left: 30px;
-    width: 90%;
+    width: 86.5%;
+    height: 40px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
 }
+
+.submit-btn:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 10px;
+}
+
+select{
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+textarea{
+    margin-top: 10px;
+}
+
+::placeholder{
+    padding-left: 15px;
+}
+
 
 
 
